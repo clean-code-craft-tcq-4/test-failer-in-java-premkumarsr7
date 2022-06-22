@@ -9,10 +9,10 @@ import org.junit.Test;
 /**
  * @author msp5cob
  */
-public class TshirtsTest {
+public class AlerterTest {
 
   @Test
-  public void assertTshirtSize(final String size, final String expectedSize) {
-    assertEquals(expectedSize, size);
+  public void assertAlertCount(final int alertCount) {
+    assertEquals(0, alertCount);
   }
 }

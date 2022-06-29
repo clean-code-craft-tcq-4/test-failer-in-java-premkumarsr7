@@ -21,6 +21,7 @@ public class Alerter {
       alertFailureCount++;
     }
   }
+  
 
   public static void main(final String[] args) {
     alertInCelcius(400.5f);
